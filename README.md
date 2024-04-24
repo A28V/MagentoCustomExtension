@@ -15,8 +15,11 @@ Installation
 Download the extension files or clone the repository.
 Upload the extension files to your Magento installation directory in the app/code directory.
 Run the following command from your Magento root directory to enable the extension:
+
 php bin/magento module:enable Custom_Attribute
+
 php bin/magento setup:upgrade
+
 php bin/magento cache:flush
 
 
